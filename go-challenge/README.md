@@ -107,30 +107,4 @@ If you want to run your code locally, using a default corpus to generate 100 wor
 go run main.go
 ``` 
 
-When you are done with the task, please zip or tar your files (or simply the
-full directory) and send it to us via this Google form: https://forms.gle/y2GxnSNkMSavTKkK9 (or directly to the recruiter you were in contact with).
 
-Good luck and happy hacking! \ʕ◔ϖ◔ʔ/ 
-
-### A Word of Advice
-
-Don't worry too much if you will complete the task completely in the time box. Instead
-budget your time well to get together some code we may discuss in an interview. If some of your
-code is not yet optimal we recommend you leave a comment and move on. You can always
-later optimize it if you have more time or we can talk about it in the interview.
-
-You will also find a function to normalize words in the provided `trigram` package.
-At the beginning ignore this and try to complete a first implementation that generates
-some text. When you are happy with the result and still have time you can think about
-why and how you would use normalization.
-
-### Bonus tasks
-
-If you happen to have extra time here are some suggestions what you can add:
-
-- implement tests for the solution (we expect most people will do this anyway)
-- can you benchmark your code to show where it can be improved to be faster or use less memory?
-- review and change our provided code
-  - maybe the `Solution` interface could be improved?
-  - have a look at the parser and see if it can be optimized
-  - how would you test the parser code?
